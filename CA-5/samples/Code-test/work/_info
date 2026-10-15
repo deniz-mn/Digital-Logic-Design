@@ -1,0 +1,102 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\University\Term-5\Temp\CA2_810102575\workspace
+vcontroller
+Z1 IM<E0BfdO6eeF8P>XJA@eT0
+Z2 VXokXz?Q6<RM0LB>8mLH[B1
+Z3 dD:\University\Term-5\CAD\CA_cloned\CAD-CA-s\CA-5\samples\Code-test
+Z4 w1767431422
+Z5 8D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/Controller.v
+Z6 FD:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/Controller.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/Controller.v|
+Z9 o-work work -O0
+Z10 !s100 D7B2Q>W`69j4KTKkz`ej72
+Z11 !s108 1767431424.990000
+Z12 !s107 D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/Controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath
+Z13 IKYP;CiABg@TPH4FJDF=5D3
+Z14 VKZG>65ISn[gc>IJY6^>fb2
+R3
+R4
+Z15 8D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/Datapath.v
+Z16 FD:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/Datapath.v
+L0 1
+R7
+r1
+31
+Z17 !s90 -reportprogress|300|-work|work|D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/Datapath.v|
+R9
+Z18 !s100 lBllln_C:Rjd4Plmf_5E71
+Z19 !s108 1767431425.089000
+Z20 !s107 D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/Datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtbTopModule
+Z21 Ih@O`<1=<TE?<@NkIkma[e0
+Z22 VCNk[5N]2h2QF7cSn2^B_L0
+R3
+R4
+Z23 8D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/tbTopModule.v
+Z24 FD:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/tbTopModule.v
+L0 2
+R7
+r1
+31
+Z25 !s90 -reportprogress|300|-work|work|D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/tbTopModule.v|
+R9
+Z26 ntb@top@module
+!i10b 1
+Z27 !s100 9a<6_0hOjOGDGK;FF3hGO0
+!s85 0
+Z28 !s108 1767431425.203000
+Z29 !s107 D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/tbTopModule.v|
+!s101 -O0
+vtop_module
+Z30 IQL3i5ZYiVfU[MYMi72N`41
+Z31 VY?oR_>2KbQmo3LSnZlUhz3
+R3
+Z32 w1767429641
+Z33 8D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/sample1/codes/TopModule.v
+Z34 FD:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/sample1/codes/TopModule.v
+L0 1
+R7
+r1
+31
+R9
+Z35 !s100 PP35F_lL84LPV8ZYP`4CK0
+Z36 !s108 1767429769.143000
+Z37 !s107 D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/sample1/codes/TopModule.v|
+Z38 !s90 -reportprogress|300|-work|work|D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/sample1/codes/TopModule.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtopModule
+!i10b 1
+!s100 NOcf1I_RDHh?]]Y1H;miG2
+I3h0K6G27=I6AYH??Hn5^I0
+Z39 VZ5W0JDz66:<[z_akceTEc1
+R3
+R4
+Z40 8D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/TopModule.v
+Z41 FD:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/TopModule.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1767431425.336000
+!s107 D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/TopModule.v|
+Z42 !s90 -reportprogress|300|-work|work|D:/University/Term-5/CAD/CA_cloned/CAD-CA-s/CA-5/samples/Code-test/codes/TopModule.v|
+!s101 -O0
+R9
+Z43 ntop@module
