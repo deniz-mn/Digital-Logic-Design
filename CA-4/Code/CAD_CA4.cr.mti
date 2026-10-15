@@ -1,0 +1,44 @@
+C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/FGenerator.v {0 {vlog -work work -stats=none C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/FGenerator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FGenerator
+** Error: (vlog-13069) C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/FGenerator.v(3): near ",": syntax error, unexpected ','.
+
+} {4.0 5.0} {}} C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/TOP.sv {1 {vlog -work work -sv -stats=none C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/TOP.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Top
+
+Top level modules:
+	Top
+
+} {} {}} C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v {0 {vlog -work work -stats=none C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tbAdder
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v(25): (vlog-2110) Illegal reference to memory "in4".
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v(25): (vlog-2110) Illegal reference to net array "#implicit-wire#2".
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v(25): (vlog-2110) Illegal reference to memory "in4".
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v(17): (vlog-2110) Illegal reference to memory "in3".
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v(17): (vlog-2110) Illegal reference to net array "#implicit-wire#1".
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v(17): (vlog-2110) Illegal reference to memory "in3".
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v(9): (vlog-2110) Illegal reference to memory "in2".
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v(9): (vlog-2110) Illegal reference to net array "#implicit-wire#0".
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbAdder.v(9): (vlog-2110) Illegal reference to memory "in2".
+
+} {4.0 13.0} {}} C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbTop.v {0 {vlog -work work -stats=none C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbTop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tbTop
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbTop.v(45): (vlog-2110) Illegal reference to memory "initialValues".
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbTop.v(45): (vlog-2110) Illegal reference to net array "#implicit-wire#4".
+** Error: C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbTop.v(45): (vlog-2110) Illegal reference to memory "initialValues".
+
+} {4.0 7.0} {}} C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/nBitLeftShiftReg.v {1 {vlog -work work -stats=none C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/nBitLeftShiftReg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module nBitLeftShiftReg
+
+Top level modules:
+	nBitLeftShiftReg
+
+} {} {}} C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbRndTop.v {0 {vlog -work work -stats=none C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbRndTop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Error: (vlog-13069) C:/Users/lenovo/Downloads/UT/5/Cad/FALL_04/CA/CA-4/Code/tbRndTop.v(4): near "RndTop": syntax error, unexpected IDENTIFIER.
+
+} {3.0 4.0} {}}

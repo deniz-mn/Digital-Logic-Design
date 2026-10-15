@@ -1,0 +1,25 @@
+# Compile of FGenerator.v failed with 1 errors.
+# Compile of hashDatapath.v failed with 8 errors.
+# Compile of hashFSM.v was successful.
+# Compile of hashTop.v was successful.
+# Compile of nBitDownCounter.v failed with 8 errors.
+# Compile of nBitLeftShiftReg.v was successful.
+# Compile of nBitReg.v was successful.
+# Compile of nBitUpCounter.v was successful.
+# Compile of rndDatapath.v was successful.
+# Compile of rndFSM.v was successful.
+# Compile of rndTop.v was successful.
+# Compile of tbAdder.v failed with 9 errors.
+# Compile of tbRndTop.v failed with 1 errors.
+# Compile of tbTop.v failed with 4 errors.
+# Compile of TOP.sv was successful.
+# 15 compiles, 6 failed with 31 errors.
+# Compile of tbRndTop.v failed with 1 errors.
+# Compile of tbRndTop.v failed with 1 errors.
+# Compile of nBitDownCounter.v failed with 2 errors.
+# Compile of nBitDownCounter.v was successful.
+# Compile of hashDatapath.v failed with 6 errors.
+# Compile of hashDatapath.v failed with 5 errors.
+# Compile of hashDatapath.v was successful.
+# Compile of tbAdder.v failed with 9 errors.
+# Compile of tbTop.v failed with 3 errors.
