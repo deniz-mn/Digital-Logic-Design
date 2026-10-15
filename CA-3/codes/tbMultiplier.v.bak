@@ -1,0 +1,108 @@
+`timescale 1ns / 1ns
+
+module tbMultiplier;
+
+    reg clk;
+    reg clr;
+    reg en;
+    reg load;
+    reg [7:0] inp;
+    wire [7:0] out;
+
+    multiplier uut (
+        .clr(clr),
+        .clk(clk),
+        .inp(inp),
+        .en(en),
+        .load(load),
+        .out(out)
+    );
+
+    always #5 clk = ~clk;
+
+    initial begin
+        clk = 0;
+        clr = 1;
+        en = 0;
+        load = 0;
+        inp = 0;
+        
+        #20;
+        clr = 0;
+        $display("Time=%0t | Reset Released", $time);
+
+        // Test 1: 3 * 5 = 15
+        @(posedge clk);
+        inp = {4'd5, 4'd3};  // a=3, b=5
+        load = 1;
+        en = 0;  // هنوز en غیرفعال
+        $display("Time=%0t | Test 1: Loading 3 * 5", $time);
+        
+        @(posedge clk);
+        load = 0;
+        en = 1;  // 🔹 حالا en را فعال میکنیم
+        $display("Time=%0t | Starting multiplication...", $time);
+        
+        // Wait for computation
+        repeat(8) begin
+            @(posedge clk);
+            $display("Time=%0t | Out = %d", $time, out);
+        end
+        
+        if (out == 15)
+            $display("✅ PASS: 3 * 5 = %d", out);
+        else
+            $display("❌ FAIL: 3 * 5 = %d, Expected: 15", out);
+        
+        #20;
+
+        // Test 2: 7 * 6 = 42
+        @(posedge clk);
+        inp = {4'd6, 4'd7};  // a=7, b=6
+        load = 1;
+        en = 0;
+        $display("Time=%0t | Test 2: Loading 7 * 6", $time);
+        
+        @(posedge clk);
+        load = 0;
+        en = 1;
+        
+        repeat(8) begin
+            @(posedge clk);
+            $display("Time=%0t | Out = %d", $time, out);
+        end
+        
+        if (out == 42)
+            $display("✅ PASS: 7 * 6 = %d", out);
+        else
+            $display("❌ FAIL: 7 * 6 = %d, Expected: 42", out);
+        
+        #20;
+
+        // Test 3: 4 * 4 = 16
+        @(posedge clk);
+        inp = {4'd4, 4'd4};  // a=4, b=4
+        load = 1;
+        en = 0;
+        $display("Time=%0t | Test 3: Loading 4 * 4", $time);
+        
+        @(posedge clk);
+        load = 0;
+        en = 1;
+        
+        repeat(8) begin
+            @(posedge clk);
+            $display("Time=%0t | Out = %d", $time, out);
+        end
+        
+        if (out == 16)
+            $display("✅ PASS: 4 * 4 = %d", out);
+        else
+            $display("❌ FAIL: 4 * 4 = %d, Expected: 16", out);
+
+        #20;
+        $display("Time=%0t | All Tests Completed", $time);
+        $stop;
+    end
+
+endmodule
